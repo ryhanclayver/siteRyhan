@@ -1,0 +1,245 @@
+:root {
+    --cor-verde-barra: rgba(26, 61, 27, 0.8);
+    --cor-verde: #1a3d1b;
+    --cor-branca-barra: rgba(255,255,255, 0.7);
+    --cor-branca: #fff;
+    --cor-cinza: #333;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Tahoma, Geneva, Kalimati, sans-serif;
+    color: var(--cor-branca);
+}
+
+.navbar{
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 13px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.nav-link{
+    text-decoration: none;
+    color: var(--cor-branca);
+}
+
+.nav-link-mobile{
+    text-decoration: none;
+    color: var(--cor-branca);
+    margin-left: 12px;
+}
+
+.nav-link:hover{
+    color: var(--cor-branca-barra);
+}
+
+.navbar-toggler[aria-expanded="true"] + .collapse .navbar-nav li a {
+    margin-left: 10px;
+}
+
+.navbar.navbar-light {
+    background-color: var(--cor-verde-barra) !important;
+    justify-content: space-between;
+}
+
+.nav-item{
+    padding-right: 14px;
+}
+
+.navbar-toggler {
+    margin-right: 12px; 
+}
+.nav-link:visited {
+    color: var(--cor-branca); 
+}
+
+
+.btn-branco {
+    border-color: var(--cor-branca);
+}
+
+.btn-branco:active {
+    background-color: var(--cor-branca);
+}
+
+#menu {
+    
+    background-image: url('../images/primeira.jpg');
+    height: 500px;
+}
+
+#menu #barra{   
+    font-size: 15px;
+    justify-content: center;
+}
+
+.menu {
+    background-image: url('../images/primeira.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-container {
+    position: relative;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid var(--cor-branca);
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: var(--cor-branca);
+    max-width: 100%; 
+    max-width: fit-content;
+}
+
+.logo {
+    max-width: 100%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto;
+}
+
+.cambui {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cambui img {
+    max-width: 45%;
+    height: auto;
+}
+
+#grupo-container{
+    padding-top: 40px;
+    padding-bottom: 45px;
+
+}
+
+#grupo-container h1{
+    font-size: 25px;
+}
+
+#grupo-container p{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+#quemsomos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    text-align: center; 
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+#quemsomos p{
+    color:black;
+}
+
+#trabalheconosco {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#trabalheconosco .btn{
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.botao-custom {
+    color: var(--cor-verde);
+}
+
+#meioambiente{
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+#meioambiente p{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#combateincendio{
+    padding-bottom: 40px;
+}
+
+#combateincendio p{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#incendio img{
+    border-radius: 20px;
+    width: 86%;
+}
+
+#faleconosco{
+    background-image:url(../images/final.jpg);
+    background-size: cover;
+    background-position: center top;
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+    width: 100%;
+    height: 600px;
+    background-attachment:fixed;
+}
+
+#faleconosco #faixa{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+#faleconosco #faixa2{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.botao-custom-verde{
+    background-color: var(--cor-verde);
+}
+
+footer{
+    background-color: var(--cor-cinza);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width:996px)
+{ 
+ .nav-link-mobile { display: none; }
+}
+
+
+
+
+
+
